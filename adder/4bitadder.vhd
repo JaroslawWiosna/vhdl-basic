@@ -23,12 +23,12 @@ use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
+-- use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+-- library UNISIM;
+-- use UNISIM.VComponents.all;
 
 entity adder4 is
     port (a : in unsigned(3 downto 0);
@@ -40,7 +40,7 @@ end adder4;
 
 architecture Behavioral of adder4 is
 
-signal sum_carry : out unsigned(4 downto 0); --4 due to carry bit 
+signal sum_carry : out unsigned(4 downto 0); -- 4 due to carry bit 
 
 begin
 
