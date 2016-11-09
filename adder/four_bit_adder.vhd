@@ -81,4 +81,4 @@ FBA4: fulladder port map(
 
 carry <= s_carry;	-- only carry(3) is vital other for test purpose
 
-end Behavioral
+end Behavioral;
